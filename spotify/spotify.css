@@ -83,7 +83,7 @@ font-family: 'Montserrat', sans-serif;
 .topbar{
     display: flex;
     justify-content: space-between;
-    background-color: #f00909;
+    background-color: #181818;
     padding: 14px 30px;
 }
 .topbar .prev-next-buttons button{
