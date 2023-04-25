@@ -183,10 +183,14 @@ padding: 20px;
     padding: 20px;
 }
 .work{
+    padding: 80px;
     margin: 180px;
     display: flex;
-    width: 70%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
     justify-content: space-around;
+    
 }
 
 .project img{
@@ -194,9 +198,10 @@ padding: 20px;
 }
 
 .project{
+    padding: 20px;
     width: 250px;
     height: 150px;
-    padding: 2rem 1rem;
+    margin: 25px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -215,7 +220,7 @@ padding: 20px;
     height: 100%;
     width: 100%;
     background: linear-gradient(to bottom, rgba(36, 36, 88, 1),  rgba(206, 204, 202, 0.473)) ;
-    z-index: 2;
+    z-index: 0;
     transition: 0.5s all;
     opacity: 0;
 }
@@ -235,6 +240,7 @@ padding: 20px;
   
 
   .btn {
+   
     display: block;
     background-color: rgb(206, 204, 202);
     color: rgb(228, 13, 85);
