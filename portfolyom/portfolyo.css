@@ -251,8 +251,10 @@ padding: 20px;
     text-decoration: none;
     opacity: 0;
   }
+
   .project:hover .btn{
     opacity: 1;
+    cursor: pointer;
   }
   
 
