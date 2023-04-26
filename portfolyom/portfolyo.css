@@ -249,6 +249,10 @@ padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
     text-decoration: none;
+    opacity: 0;
+  }
+  .project:hover .btn{
+    opacity: 1;
   }
   
 
