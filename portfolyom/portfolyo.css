@@ -368,18 +368,15 @@ position: relative;
 }
 @media screen and (max-width:800px) {
 
-   body{
-    margin: 0;
-    padding:0;
-   }
-
    .header {
     position: relative;
     display: flex;
     font-size: 6px;
     right:32px;
+    width: 430px;
     }
-    .header  ul {
+    .header .container ul {
+
         text-decoration: none;
        background-color: rgb(36, 36, 88);
        display: flex;
