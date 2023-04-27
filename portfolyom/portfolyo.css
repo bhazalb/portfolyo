@@ -431,6 +431,7 @@ position: relative;
    .textSkills{
     width: 200px;
     height: 70px;
+   
    }
    .textSkills h2{
     text-align: justify;
@@ -450,7 +451,7 @@ position: relative;
     width:150px ;
     height: 150px;
     padding: 60px;
-    margin: 0px;
+    margin: 300px;
     
    }
     .wrapper{
