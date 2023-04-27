@@ -388,17 +388,17 @@ position: relative;
     /*  navbar kısmı bitti  */
    #home h1{
     font-size: 20px;
-    margin: 10px;
+    margin: 50px;
    }
    #home p{
     font-size: 15px;
-    margin: 10px;
+    margin: 50px;
    }
 /*  my name kısmı bitti  */
    #about{
     margin-top: -20;
     margin-bottom: 10px;
-    margin-left: 6px;
+    margin-left: 50px;
     margin-right: 6px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -451,7 +451,7 @@ position: relative;
     width:150px ;
     height: 150px;
     padding: 60px;
-    margin: 80px;
+    margin: 65px;
     
    }
     .wrapper{
@@ -459,8 +459,8 @@ position: relative;
         flex-direction:column;
         align-items: center;
         width:200px ;
-        margin: 0;
-        padding: 0px;
+        margin: -40px;
+        padding: 25px;
         
     }
     
@@ -470,7 +470,7 @@ position: relative;
         margin-left: 100px;
         margin-top: 500px;
         margin-right: 200px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
        
     }
     #workk h2{
@@ -481,7 +481,7 @@ position: relative;
     }
   
     .work{
-       
+       margin: 50px;
         padding: 0;
         display: flex;
         flex-direction:column;
@@ -497,7 +497,7 @@ position: relative;
         position: relative;
     }
     .project .btn{
-        display: flex;
+       
         margin: 10px;
         background-color: rgb(206, 204, 202);
         color: rgb(228, 13, 85);
@@ -515,7 +515,7 @@ position: relative;
         color: white;
         padding: 1rem;
         width: 190px;
-        height:400px;
+        height:650px;
         margin: 0;
         
      }
