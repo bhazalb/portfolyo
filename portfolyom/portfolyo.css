@@ -449,8 +449,9 @@ position: relative;
    #skillss{
     width:150px ;
     height: 150px;
-    padding: 150px;
+    padding: 60px;
     margin: 0px;
+    
    }
     .wrapper{
         display: flex;
