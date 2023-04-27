@@ -385,6 +385,7 @@ position: relative;
     .header .container li{
         width: 37px;
     }
+    /*  navbar kısmı bitti  */
    #home h1{
     font-size: 20px;
     margin: 10px;
@@ -393,7 +394,7 @@ position: relative;
     font-size: 15px;
     margin: 10px;
    }
-
+/*  my name kısmı bitti  */
    #about{
     margin-top: -20;
     margin-bottom: 10px;
@@ -424,7 +425,7 @@ position: relative;
    color:  rgb(206, 204, 202);
    margin: 15px;
    left: -15px;
-   margin-top: 5px;
+   margin-top: -40px;
 
    } 
    .textSkills{
