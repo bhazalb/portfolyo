@@ -496,7 +496,23 @@ position: relative;
         margin:50px;
         position: relative;
     }
-    .project .btn{
+
+    .work .project .btn {
+   
+      
+        background-color: rgb(206, 204, 202);
+        color: rgb(228, 13, 85);
+        padding: 10px;
+        text-align: center;
+        margin-top: 60px;
+        border-radius: 5px;
+       
+       
+        
+      }
+    
+    
+   /* .project .btn{
        
         margin: 10px;
         background-color: rgb(206, 204, 202);
@@ -505,7 +521,7 @@ position: relative;
         margin-top: 10px;
         border-radius: 5px;
         text-decoration: none;
-    }
+    }*/
      
     .containers{
         position: relative;
