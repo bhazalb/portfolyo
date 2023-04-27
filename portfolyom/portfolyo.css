@@ -449,8 +449,8 @@ position: relative;
    #skillss{
     width:150px ;
     height: 150px;
-    padding: 0;
-    margin: 0;
+    padding: 150px;
+    margin: 0px;
    }
     .wrapper{
         display: flex;
@@ -461,11 +461,11 @@ position: relative;
         padding: 0px;
         
     }
-   
+    
     #workk{
         width: 200px;
         height: 90px;
-        margin: 0px;
+        margin: 450px;
         
     }
     #workk h2{
