@@ -366,7 +366,7 @@ position: relative;
 .form-control input[type="submit"]:hover {
     background-color: rgb(228, 13, 85);
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
    body{
     margin: 0;
