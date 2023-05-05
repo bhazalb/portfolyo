@@ -41,7 +41,7 @@ function getData(name) {
         .catch(err => console.warn(err));
 } */
 
-
+/*
 async function getUsers() {
   let url = 'https://type.fit/api/quotes';
   try {
@@ -54,7 +54,7 @@ async function getUsers() {
 
 async function renderUsers() {
   let users = await getUsers();
-  document.querySelector(' .content').innerHTML = users.forEach(user=>user.text);
+  document.querySelector(' .content').innerHTML = users.forEach(user=>user.text);*/
 
  /* let html = '';
   users.forEach( user => {
@@ -68,10 +68,38 @@ async function renderUsers() {
 
   let content =document.querySelector('.content');
   content.innerHTML = html;*/
-
+/*
 }
-renderUsers();
+renderUsers();*/
 
+const button = document.querySelector('.btn');
+const quoteContainer = document.querySelector('#text');
+
+button.addEventListener('click', () => {
+  fetch('https://type.fit/api/quotes')
+    .then(response => response.json())
+    .then(data => {
+      // random alıntıyı ürettik
+      const randomIndex = Math.floor(Math.random() * data.length);
+      const randomQuote = data[randomIndex];
+
+      // Display the quote
+      const quoteText = document.createElement('p');
+      quoteText.textContent = `"${randomQuote.text}"`;
+
+      const quoteAuthor = document.createElement('p');
+      quoteAuthor.textContent = `- ${randomQuote.author || 'Unknown'}`;
+
+      // içeriği temizlemek için
+
+      quoteContainer.innerHTML = '';
+      quoteContainer.appendChild(quoteText);
+      quoteContainer.appendChild(quoteAuthor);
+    })
+    .catch(error => {
+      console.error(error);
+    });
+});
 
 
 
