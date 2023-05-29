@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anket.css">
+   
+   
+    <title>anasayfa</title>
+</head>
+<body>
+
+
+<h1>Anket Uygulaması</h1>
+    <form id="anketForm">
+        <h2>Soru 1:</h2>
+        <p>Hangi çeşit yemeği daha çok seversiniz?</p>
+        <input type="radio" name="soru1" value="A"> Sebze<br>
+        <input type="radio" name="soru1" value="B"> Et/tavuk/balık<br>
+        <input type="radio" name="soru1" value="C"> Fark etmez <br>
+
+        <h2>Soru 2:</h2>
+        <p>Tatlı sever misiniz?</p>
+        <input type="radio" name="soru2" value="A"> Evet<br>
+        <input type="radio" name="soru2" value="B"> Hayır<br>
+        <input type="radio" name="soru2" value="C">Fark etmez<br>
+
+        <h2>Soru 3:</h2>
+        <p>Yemek seçer misiniz?</p>
+        <input type="radio" name="soru3" value="A"> Evet<br>
+        <input type="radio" name="soru3" value="B"> Hayır<br>
+        <input type="radio" name="soru3" value="C">Fark etmez<br>
+
+        <button type="submit">Anketi Gönder</button>
+    </form>
+
+    <div id="sonuclar">
+        <ul id="list">
+            
+        </ul>
+    </div>
+
+
+
+
+
+
+   <script src="anket.js"></script>
+</body>
+</html>
