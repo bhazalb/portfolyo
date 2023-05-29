@@ -16,31 +16,47 @@
     <form id="anketForm">
         <h2>Soru 1:</h2>
         <p>Hangi çeşit yemeği daha çok seversiniz?</p>
-        <input type="radio" name="soru1" value="A"> Sebze<br>
-        <input type="radio" name="soru1" value="B"> Et/tavuk/balık<br>
-        <input type="radio" name="soru1" value="C"> Fark etmez <br>
+        <input type="radio" name="a" value="1">1
+        <input type="radio" name="a" value="2">2
+        <input type="radio" name="a" value="3">3
+       <!-- <input type="radio" name="a" value="A"> Sebze<br>
+        <input type="radio" name="a" value="B"> Et/tavuk/balık<br>
+        <input type="radio" name="a" value="C"> Fark etmez <br>-->
 
         <h2>Soru 2:</h2>
         <p>Tatlı sever misiniz?</p>
-        <input type="radio" name="soru2" value="A"> Evet<br>
+        <input type="radio" name="b" value="1">1
+        <input type="radio" name="b" value="2">2
+        <input type="radio" name="b" value="3">3
+       <!-- <input type="radio" name="soru2" value="A"> Evet<br>
         <input type="radio" name="soru2" value="B"> Hayır<br>
-        <input type="radio" name="soru2" value="C">Fark etmez<br>
+        <input type="radio" name="soru2" value="C">Fark etmez<br>-->
 
         <h2>Soru 3:</h2>
         <p>Yemek seçer misiniz?</p>
-        <input type="radio" name="soru3" value="A"> Evet<br>
+        <input type="radio" name="c" value="1">1
+        <input type="radio" name="c" value="2">2
+        <input type="radio" name="c" value="3">3
+      <!--  <input type="radio" name="soru3" value="A"> Evet<br>
         <input type="radio" name="soru3" value="B"> Hayır<br>
-        <input type="radio" name="soru3" value="C">Fark etmez<br>
+        <input type="radio" name="soru3" value="C">Fark etmez<br>-->
 
-        <button type="submit">Anketi Gönder</button>
+        <button type="submit" onclick="btnClick()">Anketi Gönder</button>
     </form>
 
-    <div id="sonuclar">
+  <ul >
+    <li id="selectedValue1"></li>
+    <li id="selectedValue2"></li>
+    <li id="selectedValue3"></li>
+  </ul>
+  
+
+    <!--<div id="sonuclar">
         <ul id="list">
             
         </ul>
     </div>
-
+-->
 
 
 
