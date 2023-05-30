@@ -27,11 +27,13 @@
 
     
 
-    const birlesmisKelime=[...new Set(anahtarKelime)];
+    const birlesmisKelime=[...new Set(anahtarKelime)];  //dizi içerisinde düzenleme yapmak için birden fazla geçen kelimeleri düzeltmek amaçlı
     
 
-birlesmisKelime.sort(() => Math.random() - 0.5);
+birlesmisKelime.sort(() => Math.random() - 0.5); // karışık arama listesi oluşturmak için
+  
 
+        //arama listesine seçenek oluşturmak
     birlesmisKelime.forEach(kelime=> {
         const yeniOneri = document.createElement("option");
         aramaListesi.appendChild(yeniOneri);
