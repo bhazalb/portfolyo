@@ -163,31 +163,99 @@
     
 }
 /*            ---------------------          */
-#specialSection{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
-}
-.partTwo{
-    width: 200px;
+#specialSection, #section2 , #section3{
     display: flex;
-    flex-direction: row;
-}
-.partTwo img{
+    flex-direction: column;
+  }
+  
+#specialSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .partTwo {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .picture2 {
+    margin-right: 20px;
+  }
+  
+  .textt {
+    flex-grow: 1;
+  }
+  .picture2 img{
     max-width: 350px;
     margin-left: 590px;
-}
-.partTwo .textt{
-    font-family: Gotham Screensmart Book,sans-serif;
+  }
+  .textt h3{
+    font-size: 35px;
+  }
+  .textt p{
+    font-size: 17px;
+  }
+  
 
-}
-.partTwo h3{
-    margin: 10px;
-}
-.partTwo p{
-    padding: 10px;
-}
+  #section2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .partThree {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .picture3 {
+    margin-right: 20px;
+  }
+  
+  .text3 {
+    flex-grow: 1;
+  }
+  .picture3 img{
+    max-width: 350px;
+    margin-left: 590px;
+  }
+  .text3 h3{
+    font-size: 35px;
+  }
+  .text3 p{
+    font-size: 17px;
+  }
+  
+
+
+  #section3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .part4 {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .picture4 {
+    margin-right: 20px;
+  }
+  
+  .text4 {
+    flex-grow: 1;
+  }
+  .picture4 img{
+    max-width: 350px;
+    margin-left: 590px;
+  }
+  .text4 p{
+    font-size: 17px;
+  }
+  
 #detayliBilgi{
     width: 120px;
     height: 30px;
@@ -216,9 +284,12 @@
 }
 #hepsiBurada:hover{
     background-color: #00a862;
-}
+}/*
 .partThree{
     width: 200px;
     display: flex;
     flex-direction: row;
 }
+.picture3 img{
+     margin-left: 0;
+}*/
