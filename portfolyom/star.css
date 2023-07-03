@@ -164,7 +164,7 @@
 }
 /*            ---------------------          */
 
-#specialSection, #section2 , #section3{
+#specialSection, #section2 , #section3 , #section4{
     display: flex;
     flex-direction: column;
   }
@@ -284,12 +284,54 @@
 }
 #hepsiBurada:hover{
     background-color: #00a862;
-}/*
-.partThree{
-    width: 200px;
-    display: flex;
-    flex-direction: row;
 }
-.picture3 img{
-     margin-left: 0;
-}*/
+#section4 {
+  display: flex;
+  align-items: center;
+}
+
+.part5 {
+  display: flex;
+  align-items: center;
+  
+}
+
+.picture5{
+  margin-right: 20px;
+}
+
+.text5 {
+  flex-grow: 1;
+}
+.picture5 img{
+  max-width: 350px;
+  margin-left: 590px;
+}
+.text5 p{
+  font-size: 17px;
+}
+#section5 {
+  display: flex;
+  align-items: center;
+}
+
+.part6 {
+  display: flex;
+  align-items: center;
+  
+}
+
+.picture6{
+  margin-right: 20px;
+}
+
+.text6 {
+  flex-grow: 1;
+}
+.picture6 img{
+  max-width: 350px;
+  margin-left: 590px;
+}
+.text6 p{
+  font-size: 17px;
+}
