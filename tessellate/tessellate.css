@@ -170,6 +170,43 @@ font-family: 'Source Code Pro', monospace;*/
     letter-spacing: 2px;
     padding-left: 250px;
 }
+.textBox-8{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    padding-top: 35vh;
+    letter-spacing: 2px;
+    padding-left: 250px;
+    float: left;
+}
+.textBox-8 h5{
+    font-size: 17px;
+    padding: 20px;
+}
+.textBox-8 a{
+    color: black;
+}
+
+#container{
+    text-align: left;
+}
+.textBox-8 h4{
+    font-size: 17px;
+    
+}
+.container-2{
+    margin: 20px;
+}
+.iconsContainer{
+    padding-top: 30vh;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.iconsContainer a{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
  /* ----------------------      -----------------          ---------- */
 .container-2{
     width: 45%;
